@@ -43,6 +43,7 @@ public class MainApp {
             if(i == 4){
                 MyApp4 myApp4 = new MyApp4();
                 myApp4.generationRecords();
+                System.out.println("1000000 записей заливаются долго поэтому в показательных целях я ограничился десятью тысячами записей");
             }
             if(i == 5 && i == 6){
                 System.out.println("Оптимизировать таблицу не получилось, пробовал индексами, но никаких результатов");

@@ -16,7 +16,7 @@ public class MyApp4 {
         ListNames.addNames();
 //        try(Session session = factory.getCurrentSession()){
 
-            for (int i = 0; i < 500; i++){
+            for (int i = 0; i < 10000; i++){
                 try(Session session = factory.getCurrentSession()){
                     session.beginTransaction();
                     if(i % 2 == 0) isMale = true;
